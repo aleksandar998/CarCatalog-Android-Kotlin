@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Task05</string>
+    <string name="logIn">LOGIN</string>
+    <string name="facebook">facebook</string>
+    <string name="twitter">twitter</string>
+    <string name="or">OR</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot">Forgot Password?</string>
+    <string name="signUp">Dont have an account?</string>
+    <string name="bold">SIGN UP</string>
+</resources>

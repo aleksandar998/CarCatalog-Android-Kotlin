@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Task07</string>
+    <string name="maska">MASKA ZA MOBILNI ANNA / 1300 DINARA</string>
+    <string name="marka">Marka i model telefona</string>
+    <string name="model">Dostupni modeli:</string>
+    <string name="kolicina">Unesite kolicinu</string>
+    <string name="imePrezime">Vase ime i prezime</string>
+    <string name="grad">Vas grad</string>
+    <string name="broj">Vas postanski broj</string>
+    <string name="posalji">POSALJI</string>
+</resources>

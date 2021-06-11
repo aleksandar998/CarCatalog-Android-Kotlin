@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/naslov"
+        android:textSize="24sp"
+        android:textColor="@color/white"/>
+
+    <RelativeLayout
+        android:id="@+id/velikideo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="300dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/whitebox">
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="56dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/play" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/play">
+
+            <TextView
+                android:id="@+id/belong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/belong"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/taylor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/belong"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/taylor"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/gray"/>
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/taylor"
+                android:layout_marginTop="2dp"
+                android:progressTint="@color/purple"
+                android:rating="3"
+                android:scaleX=".8"
+                android:scaleY=".8"
+                android:layout_centerHorizontal="true"/>
+
+            <RelativeLayout
+                android:id="@+id/textbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ratingBar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:padding="2dp"
+                android:background="@drawable/line">
+
+                <TextView
+                    android:id="@+id/jedan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@+id/textbox"
+                    android:text="@string/jedan"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/gray"
+                    android:textSize="16sp"
+                    tools:ignore="NotSibling"/>
+
+                <TextView
+                    android:id="@+id/prvapesma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/jedan"
+                    android:text="@string/prvapesma"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/prvapesma"
+                    android:textSize="16sp"
+                    android:layout_marginStart="20dp"
+                    android:textColor="@color/black"
+                    android:text="@string/prvapesmatrajanje"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/textboxtwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textbox"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:padding="2dp"
+                android:background="@drawable/line">
+
+                <TextView
+                    android:id="@+id/dva"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@+id/textbox"
+                    android:text="@string/dva"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/gray"
+                    android:textSize="16sp"
+                    tools:ignore="NotSibling"/>
+
+                <TextView
+                    android:id="@+id/drugapesma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/dva"
+                    android:text="@string/drugapesma"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/drugapesma"
+                    android:textSize="16sp"
+                    android:layout_marginStart="20dp"
+                    android:textColor="@color/black"
+                    android:text="@string/drugapesmatrajanje"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/textbowthree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textboxtwo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:padding="2dp"
+                android:background="@drawable/line">
+
+                <TextView
+                    android:id="@+id/tri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@+id/textbox"
+                    android:text="@string/tri"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/gray"
+                    android:textSize="16sp"
+                    tools:ignore="NotSibling" />
+
+                <TextView
+                    android:id="@+id/trecapesma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/tri"
+                    android:text="@string/trecapesma"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/trecapesma"
+                    android:textSize="16sp"
+                    android:layout_marginStart="30dp"
+                    android:textColor="@color/black"
+                    android:text="@string/prvapesmatrajanje"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/textboxfour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textbowthree"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:padding="2dp"
+                android:background="@drawable/line">
+
+                <TextView
+                    android:id="@+id/cetiri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@+id/textbox"
+                    android:text="@string/cetiri"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/gray"
+                    android:textSize="16sp"
+                    tools:ignore="NotSibling" />
+
+                <TextView
+                    android:id="@+id/cetvrtapesma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/cetiri"
+                    android:text="@string/cetvrtapesma"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_toEndOf="@+id/cetvrtapesma"
+                    android:text="@string/prvapesmatrajanje"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/recenica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="550dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/opis"
+            android:textColor="@color/gray"
+            android:textSize="14sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button"
+            android:layout_below="@+id/recenica"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

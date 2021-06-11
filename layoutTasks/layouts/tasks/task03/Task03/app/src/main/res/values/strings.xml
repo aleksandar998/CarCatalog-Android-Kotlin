@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Task03</string>
+    <string name="company">Company</string>
+    <string name="logo">Logo</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="signIn">SIGN IN</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Task08</string>
+    <string name="naslov">Share Your Favorite Playlist!</string>
+    <string name="belong">You belong to me</string>
+    <string name="taylor">Nutrition - Taylor Swift</string>
+    <string name="jedan">1.</string>
+    <string name="prvapesma">Train Whistle At Night</string>
+    <string name="prvapesmatrajanje">10 min</string>
+    <string name="dva">2.</string>
+    <string name="drugapesma">Mindfullness of Breath</string>
+    <string name="drugapesmatrajanje">5 min</string>
+    <string name="tri">3.</string>
+    <string name="trecapesma">A Meditation Lullaby</string>
+    <string name="cetiri">4.</string>
+    <string name="cetvrtapesma">The Twilight Zone</string>
+    <string name="opis">Use our hashtag #momotaro on Instagram and Twitter!</string>
+    <string name="button">Share Now</string>
+</resources>

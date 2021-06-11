@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/running"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp">
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/lock"/>
+        </RelativeLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp">
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:hint="@string/username"/>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:layout_marginTop="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/username"
+                android:hint="@string/password"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp">
+
+            <Button
+                android:id="@+id/signUp"
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="@string/signUp"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_corner_signup"
+                />
+
+            <Button
+                android:id="@+id/signIn"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:text="@string/signIn"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_corner_signin"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="@string/socialMedia"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="120dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp">
+
+            <ImageView
+                android:id="@+id/facebook"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/facebook"/>
+
+            <ImageView
+                android:id="@+id/twitter"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/twitter"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

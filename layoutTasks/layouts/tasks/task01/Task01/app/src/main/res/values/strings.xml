@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Task01</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="signIn">SIGN IN</string>
+    <string name="socialMedia">Signin via Social Media</string>
+</resources>

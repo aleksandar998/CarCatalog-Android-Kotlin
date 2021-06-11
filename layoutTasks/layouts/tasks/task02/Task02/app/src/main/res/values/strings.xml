@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Task02</string>
+    <string name="naslov">IOS App Templates</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signIn">Sign In</string>
+    <string name="text">Dont have an account? Sign Up</string>
+</resources>

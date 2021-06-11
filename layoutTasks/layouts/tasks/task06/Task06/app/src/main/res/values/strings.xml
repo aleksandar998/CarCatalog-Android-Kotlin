@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Task06</string>
+    <string name="izbor">IZABERI SLIKU</string>
+    <string name="ime">Ime</string>
+    <string name="prezime">Prezime</string>
+    <string name="email">Email</string>
+    <string name="lozinka">Lozinka</string>
+    <string name="registracija">REGISTRACIJA</string>
+    <string name="logovanje">Idite na logovanje..</string>
+</resources>

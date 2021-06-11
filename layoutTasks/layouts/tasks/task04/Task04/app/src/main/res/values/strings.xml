@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Task04</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="forgot">forgot password?</string>
+    <string name="or">OR</string>
+    <string name="logIn">LOG IN</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="google">GOOGLE+</string>
+</resources>
