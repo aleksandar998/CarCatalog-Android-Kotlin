@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TaskCars</string>
+    <string name="description">Your catalog is a structured data file with a list of cars to showcase. Each line of the file contains all information needed to create a vehicle listing. To set up a vehicles feed, you need a catalog and a feed of your inventory hosted at a location of your choice. From your Business Manager/Commerce Manager, create a new vehicles catalog.</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogosActivity">
+    <LinearLayout
+        android:id="@+id/searchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <EditText
+            android:id="@+id/userInput"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Izvrsite pretragu.."/>
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_search"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/closeSearchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:padding="5dp"
+        android:text="Zatvorite pretragu"
+        android:textColor="@color/white"
+        android:background="@drawable/zatvorite_pretragu_corner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/searchLayout"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleViewLogos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#c1c1c1"
+        app:layout_constraintTop_toBottomOf="@id/closeSearchButton"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
